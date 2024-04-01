@@ -1,0 +1,40 @@
+.Welcome {
+    text-align: center;
+    color: #868e96;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.loginform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 511px;
+}
+
+.Loginbutton,
+.Welcome button {
+    background-color: #00B286;
+    padding: 10px 80px;
+    margin-top: 30px;
+}
+
+.reportissueform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 511px;
+}

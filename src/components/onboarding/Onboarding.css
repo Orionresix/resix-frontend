@@ -1,0 +1,184 @@
+.Welcome{
+    text-align: center;
+    color: #868e96;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.Welcome img{
+    width: 180px;
+}
+
+.card {
+    box-shadow: 0.5px 0.5px 10px 1px #868e96;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card2 {
+    box-shadow: 0.5px 0.5px 1px 1px #868e96;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+    min-height: 400px;
+}
+
+.card2 img{
+    width: 100%;
+}
+
+.no_deco {
+    text-decoration: none;
+
+}
+
+.Red {
+    color:red;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.formgroup input,select{
+    padding: 7px 10px;
+    background-color: #F8F9FA;
+    border:1px solid #DEE2E6;
+    border-radius: 8px;
+}
+
+.signupform button, .Welcome button {
+    background-color: #00B286;
+    padding: 10px 80px;
+    margin-top: 30px;
+    
+    }
+
+    .signupform {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 511px;
+    }
+
+    .small{
+        font-family: 'Roboto',sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .green{
+        color: #00B286;
+
+    }
+    .black{
+        color: #000;
+    }
+
+    .flex-column-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .flex-colum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .flex-column2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .indi {
+        width: 60px;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .flex-column button {
+        border: 1px solid #00B286;
+        border-radius: 15px;
+    }
+
+    .flex-column2 button {
+        background-color: #00B286;
+    padding: 10px 80px;
+    margin-top: 30px;
+    }
+
+    .flex {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .grey {
+        color: #868e96;
+    }
+
+@media screen  and (min-width :768px){
+.inputs{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.formgroup{
+    width: 47%;
+}
+.flex-column {
+    width: 31%;
+}
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+}
+
