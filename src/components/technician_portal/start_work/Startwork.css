@@ -1,0 +1,21 @@
+.Welcome{
+    text-align: center;
+    color: #868e96;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.Welcome img{
+    width: 180px;
+}
+
+.description{
+    text-align: center;
+    color: #868e96;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
