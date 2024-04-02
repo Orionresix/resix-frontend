@@ -7,7 +7,7 @@ import TicketComponent from '../../components/Ticket'
 
 const DashboardHome = () => {
   const data = [
-    { title: 'Total maintenance request', data: 'Noting to show yet' },
+    { title: 'Total maintenance request', data: 'Nothing to show yet' },
     { title: 'Total open work orders', data: 0 },
     { title: 'Overdue requests', data: 0 },
     { title: 'Total expenses', data: 0 },
